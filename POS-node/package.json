@@ -1,0 +1,39 @@
+{
+  "name": "pos-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@goodrequest/joi-messages-extractor": "^1.0.3",
+    "async_hooks": "^1.0.0",
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.3",
+    "config": "^3.3.12",
+    "cors": "^2.8.5",
+    "data-store": "^4.0.3",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "express-async-errors": "^3.1.1",
+    "fs": "^0.0.1-security",
+    "joi": "^17.13.3",
+    "joi-browser": "^13.4.0",
+    "joi-objectid": "^4.0.2",
+    "jsonwebtoken": "^9.0.2",
+    "jwt-decode": "^4.0.0",
+    "lodash": "^4.17.21",
+    "mongoose": "^8.9.5",
+    "multer": "^1.4.5-lts.1",
+    "parse": "^5.3.0",
+    "winston": "^3.17.0"
+  },
+  "devDependencies": {
+    "webpack-dev-server": "4.14.0"
+  }
+}

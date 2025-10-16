@@ -1,0 +1,5 @@
+{
+    "jwtPrivateKey": "accounts_jwtPrivateKey",
+    "db": "accounts_db",
+    "port": "3900"
+}

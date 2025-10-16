@@ -1,0 +1,16 @@
+.menu-bar {
+    background: transparent;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-size: 2rem;
+    position: relative;
+    margin-top: 1rem;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+}

@@ -1,0 +1,89 @@
+.item-form{
+    background: white;
+    border-radius: 25px;
+    height: 650px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    z-index: 9999;
+    right: 70%;
+    top: 50px;
+    padding: 25px;
+}
+
+.item-form-detalis{
+    background: white;
+    color: black;
+    border-radius: 15px;
+    padding: 30px 40px;
+}
+
+.form {
+    position: relative;
+    width: 320px;
+    height: 2.5rem;
+    margin: 30px -20px 50px 0;
+
+}
+
+.item-form-detalis .btn {
+    position: absolute;
+    bottom: 30px;
+    margin: 15px;
+    margin-right: -20px;
+    width: 320px;
+    height: 45px;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 17px;
+    background-color: #3085d6;
+    color: white;
+    font-family: "Readex Pro", sans-serif;
+}
+
+.error{
+    color: #d32929;
+    margin-right: 10px;
+    margin-top: -50px;
+}
+
+@media (max-width:1050px) {
+    .item-form{
+        width: 340px;
+        height: 600px;
+        right: 65%;
+    }
+    .item-form h4{
+        font-size: 15px;
+    }
+    .form{
+        width: 300px;
+        margin-right: -45px;
+    }
+    .item-form-detalis .btn {
+        margin-right: -45px;
+        width: 300px;
+    }
+}
+
+@media (max-width:600px) {
+    .item-form{
+        width: 250px;
+        height: 600px;
+        right: 38%;
+    }
+    .item-form h4{
+        font-size: 15px;
+    }
+    .form{
+        width: 210px;
+        margin-right: -45px;
+    }
+    .item-form-detalis .btn {
+        margin-right: -45px;
+        width: 210px;
+    }
+}

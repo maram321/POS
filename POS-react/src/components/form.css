@@ -1,0 +1,201 @@
+.edit-form {
+    width: 100%;
+    height: 100%;
+    min-height: 620px;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(30px);
+    display: grid;
+    align-items: center;
+    place-content: center;
+}
+
+.login-form {
+    height: 620px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: right;
+    margin-right: 8%;
+    overflow: hidden;
+}
+
+body:has(.requires-no-scroll) {
+  overflow: hidden;
+}
+
+.left-circles{
+    height: 700px;
+    width: 300px;
+    position: absolute;
+    left: 0%;
+    top: 22%;
+}
+
+.left-circles .circle1{
+    height: 800px;
+    width: 800px;
+    border-radius: 50%;
+    background: #3085d6;
+    position: absolute;
+    z-index: 2;
+    top: -27%;
+    left: -170%;
+}
+
+.left-circles .circle2{
+    height: 1000px;
+    width: 1000px;
+    border-radius: 50%;
+    background: #95c0e8;
+    position: absolute;
+    z-index: 1;
+    top: -42%;
+    left: -170%;
+}
+
+.left-circles .circle3{
+    height: 1200px;
+    width: 1200px;
+    border-radius: 50%;
+    background: #c8dcee;
+    position: absolute;
+    top: -57%;
+    left: -170%;
+}
+
+.left-circles .img-fluid{
+    z-index: 3;
+    position: absolute;
+    top: -25%;
+    left: 80%;
+    height: 400px;
+    width: 500px;
+}
+
+.wrapper {
+    width: 450px;
+    background: white;
+    color: black;
+    border-radius: 15px;
+    padding: 30px 40px;
+
+}
+
+.wrapper .title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.wrapper h1 {
+    font-size: 20px;
+    text-align: center;
+    font-family: "Readex Pro", sans-serif;
+}
+
+.wrapper .form {
+    position: relative;
+    width: 100%;
+    height: 3.5rem;
+    margin: 50px 0;
+
+}
+
+.form input {
+    position: absolute;
+    width: 100%;
+    height: 90%;
+    background: transparent;
+    border: 2px solid rgb(236, 234, 234);
+    border-radius: 40px;
+}
+
+.form label {
+    position: absolute;
+    font-family: "Readex Pro", sans-serif;
+    font-size: 15px;
+    transform: translateY(-120%);
+    right: 30px;
+    background: white;
+}
+
+.form .icon {
+    position: absolute;
+    left: 20px;
+    right: 88%;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 12px;
+}
+
+.wrapper .btn {
+    width: 100%;
+    height: 45px;
+    background: #3085d6;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 17px;
+    font-family: "Readex Pro", sans-serif;
+}
+
+.img-fluid {
+    float: left;
+    height: 300px;
+    width: 300px;
+    margin-top: 200px;
+}
+
+.errors{
+    color: #d32929;
+    margin-top: -50px;
+    margin-right: 25px;
+}
+
+@media (max-width:1050px) {
+    .left-circles{
+        height: 500px;
+        width: 200px;
+    }
+    .left-circles .circle1{
+    top: -37%;
+    left: -320%;
+    }
+    .left-circles .circle2{
+    top: -52%;
+    left: -350%;
+    }
+    .left-circles .circle3{
+    top: -67%;
+    left: -400%;
+    }
+    .left-circles .img-fluid{
+        top: -30%;
+        left: 30%;
+    }
+}
+
+@media (max-width:600px) {
+    .item-form{
+    width: 65%;
+    height: 90%;
+    margin-right: 19%;
+}
+.edit-form{
+    width: 65%;
+    height: 90%;
+    margin-right: 28%;
+    margin-top: -15%;
+}
+.login-form {
+    height: 620px;
+    width: 100%;
+    margin-right: 18%;
+}
+.form .icon {
+    right: 85%;
+}
+}
