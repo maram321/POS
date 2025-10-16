@@ -1,3 +1,4 @@
 {
-    "apiUrl" : "http://localhost:3900/api"
+    "apiUrl" : "https://pos-node-01yc.onrender.com/api"
+
 }
