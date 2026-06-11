@@ -22,16 +22,17 @@ import "./bill.css"
     } 
 
     async componentDidMount() {
-        const {data : sales} = await getSales();
+        const user = auth.getCurrentUser();
+        this.setState({ user });
+
+        const {data : allSales} = await getSales();
+        const sales = this.state.user._id ? allSales.filter(e => e.userId === this.state.user._id) : this.state.sales;
         this.setState({ sales });
 
         const allCatagories = sales.map(sale => sale.catagory)
         const filteredCatagories = allCatagories.filter(function onlyUnique(value, index, array) {return array.indexOf(value) === index})
         const catagories = ["كل الأصناف", ...filteredCatagories]
         this.setState({ catagories });
-
-        const user = auth.getCurrentUser();
-        this.setState({ user });
 
     }
 
