@@ -97,7 +97,7 @@ import "./list.css"
                 { expenses.map(expense =>
                 <div className='item-container' key={expense._id}>
                     <div className='img-container'>
-                        <img src={"http://localhost:3900/images/"+expense.image} className="img-top" alt="not-found" />
+                        <img src={"https://pos-node-up1x.onrender.com/images/"+expense.image} className="img-top" alt="not-found" />
                     </div>
                     <div className='item-info'>
                         <div className='info'>
