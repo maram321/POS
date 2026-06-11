@@ -139,7 +139,7 @@ import "./bill.css"
                 {this.state.products.map((item,index) => 
                     <div className='item' key={index}>
                         <div className='img'>
-                            <img src={"http://localhost:3900/images/"+item.sale.image} className="img-top" alt="not-found" />
+                            <img src={"https://pos-node-up1x.onrender.com/images/"+item.sale.image} className="img-top" alt="not-found" />
                         </div>
                         <div className='information'>
                             <div className='information-name'>
@@ -188,7 +188,7 @@ import "./bill.css"
                 { sales.map(sale =>
                 <div className='bill-item-container' key={sale._id}>
                     <div className='bill-img-container'>
-                        <img src={"http://localhost:3900/images/"+sale.image} className="img-top" alt="not-found" />
+                        <img src={"https://pos-node-up1x.onrender.com/images/"+sale.image} className="img-top" alt="not-found" />
                     </div>
                     <div className='item-info'>
                         <div className='info'>
