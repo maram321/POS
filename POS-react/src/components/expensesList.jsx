@@ -20,7 +20,11 @@ import "./list.css"
     } 
 
     async componentDidMount() {
-        const {data : expenses} = await getExpenses();
+     const user = auth.getCurrentUser();
+        this.setState({ user });
+
+        const {data : allExpenses} = await getExpenses();
+        const expenses = this.state.user._id ? allExpenses.filter(e => e.userId === this.state.user._id) : this.state.expenses;
         this.setState({ expenses });
 
         const allCatagories = expenses.map(expense => expense.catagory)
@@ -28,8 +32,7 @@ import "./list.css"
         const catagories = ["كل الأصناف", ...filteredCatagories]
         this.setState({ catagories });
 
-        const user = auth.getCurrentUser();
-        this.setState({ user });
+
 
     }
 
