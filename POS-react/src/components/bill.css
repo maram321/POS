@@ -1,0 +1,365 @@
+h5{
+    margin-right: 15px;
+    font-size: 16px;
+    font-family: "Readex Pro", sans-serif;
+}
+
+h4{
+    font-size: 18px;
+    font-family: "Readex Pro", sans-serif;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.bill-top p {
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "Readex Pro", sans-serif;
+    margin: 20px;
+    margin-left: 200px;
+}
+
+.bill-list-container {
+    padding: 40px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: right;
+    align-items: center;
+    gap: 20px;
+    width: 900px;
+    height: 500px;
+    overflow-y: scroll;
+}
+
+.bill-list-container::-webkit-scrollbar{
+    display: none;
+}
+
+
+.bill-list-container .bill-item-container {
+    border-radius: 10px;
+    background: white;
+}
+
+.bill-list-container .bill-img-container {
+    position: relative;
+}
+
+.bill-img-container .img-top {
+    padding: 15px;
+    height: 200px;
+    width: 250px;
+    border-radius: 12%;
+}
+
+.item-info{
+    display: flex;
+    justify-content: space-between;
+}
+
+.item-info .item-name {
+    padding-right: 20px;
+    font-size: 18px;
+    font-family: "Readex Pro", sans-serif;
+    margin-top: -10px;
+}
+
+.item-price {
+    padding-right: 20px;
+    font-size: 16px;
+    font-family: "Readex Pro", sans-serif;
+    margin-top: -12px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+}
+
+.buttons {
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+
+.buttons a {
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.bill {
+    background: white;
+    border-radius: 25px;
+    height: 650px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    z-index: 9999;
+    right: 70%;
+    top: 50px;
+    padding: 25px;
+}
+
+
+.bill-bottom{
+    position: absolute;
+    bottom: 10px;
+}
+
+.bill-total {
+    margin: 15px;
+    border-radius: 15px;
+    background: rgb(236, 234, 234);
+    display: flex;
+    flex-direction: column;
+}
+
+.bill-total hr {
+    margin: 10px;
+}
+
+.bill-total-details {
+    padding-right: 20px;
+    padding-left: 30px;
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bill-total-details p {
+    font-family: "Readex Pro", sans-serif;
+}
+
+.bill-total .input-discount {
+    border-radius: 15px;
+    width: 80px;
+    background: transparent;
+    border: transparent;
+    direction: ltr;
+    font-family: "Readex Pro", sans-serif;
+}
+
+.bill-bottom button {
+    margin: 15px;
+    width: 320px;
+    height: 45px;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 17px;
+    background-color: #3085d6;
+    color: white;
+    font-family: "Readex Pro", sans-serif;
+}
+
+.items-container {
+    height: 250px;
+    overflow-y: scroll;
+}
+
+.items-container::-webkit-scrollbar{
+    display: none;
+}
+
+.item {
+    margin-right: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+    align-items: center;
+    gap: 20px;
+}
+
+.img .img-top {
+    height: 80px;
+    width: 80px;
+    border-radius: 12%;
+}
+
+.information-name .name {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    font-size: 17px;
+    font-family: "Readex Pro", sans-serif;
+}
+
+.information .details {
+    display: flex;
+    justify-content: space-between;
+    width: 210px;
+}
+
+.details .price {
+    font-size: 17px;
+    font-family: "Readex Pro", sans-serif;
+}
+
+.details .button {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.details .button a {
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.details .button h6 {
+    margin-left: 10px;
+    margin-bottom: 10px;
+    font-size: 17px;
+    font-weight: 400;
+    font-family: "Readex Pro", sans-serif;
+}
+
+@media (max-width:1050px) {
+    .bill-top p{
+        font-size: 17px;
+        margin-left: 30px;
+    }
+    .list-item{
+        font-size: 12px;
+    }
+    .bill-list-container{
+        padding: 5px;
+        margin-right: 1%;
+        width: 600px;
+    }
+    .bill{
+        width: 340px;
+        height: 600px;
+        right: 65%;
+    }
+    .bill h4{
+        font-size: 14px;
+    }
+    .bill-bottom{
+        width: 330px;
+    }
+    .bill-total{
+        margin: 0px;
+        width: 300px;
+    }
+    .bill-bottom button{
+        margin-right: 0px;
+        width: 300px;
+    }
+    .items-container {
+    height: 200px;
+    }
+    .item {
+        margin-right: 10px;
+        gap: 10px;
+    }
+    .img .img-top {
+        height: 60px;
+        width: 60px;
+        border-radius: 12%;
+    }
+}
+
+
+@media (max-width:600px) {
+    .bill-top{
+        display: flex;
+        flex-direction: column;
+    }
+    .bill-top p{
+        font-size: 12px;
+        margin-left: 30px;
+        margin-bottom: -8px;
+    }
+    .count-item{
+        font-size: 12px;
+    }
+    .list-item{
+        font-size: 12px;
+    }
+    .bill-list-container{
+        padding: 5px;
+        margin-right: 1%;
+        width: 300px;
+    }
+    .bill-img-container .img-top {
+        padding: 15px;
+        height: 200px;
+        width: 200px;
+        border-radius: 12%;
+    }
+    .bill{
+        width: 250px;
+        height: 600px;
+        right: 55%;
+    }
+    .bill h4{
+        font-size: 14px;
+    }
+    .bill-bottom{
+        width: 100px;
+    }
+    .bill-total{
+        margin: -13px;
+        margin-bottom: 1px;
+        width: 230px;
+    }
+    .bill-bottom button{
+        margin-right: -13px;
+        width: 230px;
+    }
+    .items-container {
+    height: 100px;
+    }
+    .item {
+        margin-right: 5px;
+        gap: 5px;
+    }
+    .img .img-top {
+        height: 30px;
+        width: 30px;
+        border-radius: 12%;
+        margin-top: -18px;
+    }
+    .information-name .name {
+    margin-top: 0%;
+    font-size: 12px;
+    margin-bottom: -1px;
+    }
+
+    .information .details {
+        width: 160px;
+    }
+
+    .details .price {
+        font-size: 12px;
+    }
+
+    .details .button {
+        gap: 5px;
+        margin-bottom: 5px;
+        margin-top: -5px;
+    }
+
+    .details .button a {
+        width: 20px;
+        height: 20px;
+    }
+
+    .details .button h6 {
+        margin-left: 10px;
+        margin-bottom: 10px;
+        font-size: 12px;
+        font-weight: 200;
+    }
+}

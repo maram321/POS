@@ -1,0 +1,126 @@
+h5{
+    margin-right: 15px;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "Readex Pro", sans-serif;
+}
+
+h4{
+    padding-top: 20px;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "Readex Pro", sans-serif;
+    margin-right: 40%;
+    margin-bottom: 30px;
+}
+
+.top p {
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "Readex Pro", sans-serif;
+    margin: 20px;
+    margin-left: 200px;
+}
+
+.container {
+    padding: 40px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: right;
+    align-items: center;
+    gap: 20px;
+    width: 900px;
+    height: 500px;
+    overflow-y: scroll;
+}
+
+.container::-webkit-scrollbar{
+    display: none;
+}
+
+
+.container .item-container {
+    border-radius: 10px;
+    background: white;
+}
+
+.container .img-container {
+    position: relative;
+}
+
+.img-container .img-top {
+    padding: 15px;
+    height: 200px;
+    width: 250px;
+    border-radius: 12%;
+}
+
+.item-info .item-name {
+    padding-right: 20px;
+    font-size: 25px;
+    font-weight: 500;
+    font-family: "Readex Pro", sans-serif;
+}
+
+.item-price {
+    padding-right: 20px;
+    font-size: 25px;
+    font-weight: 600;
+    font-family: "Readex Pro", sans-serif;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttons {
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+
+.buttons a {
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+@media (max-width:1050px) {
+    .top p{
+        font-size: 17px;
+        margin-left: 30px;
+    }
+    .container{
+        padding: 5px;
+        margin-right: 1%;
+        width: 600px;
+    }
+}
+
+@media (max-width:600px) {
+    .top{
+        display: flex;
+        flex-direction: column;
+    }
+    .top p{
+        font-size: 12px;
+        margin-left: 30px;
+        margin-bottom: -8px;
+    }
+    .count-item{
+        font-size: 12px;
+        margin-right: 0px;
+    }
+    .container{
+        padding: 5px;
+        margin-right: 1%;
+        width: 300px;
+    }
+    .img-container .img-top {
+        padding: 15px;
+        height: 200px;
+        width: 200px;
+        border-radius: 12%;
+    }
+}

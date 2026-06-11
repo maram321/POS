@@ -1,0 +1,209 @@
+h6{
+    font-size: 18px;
+    font-family: "Readex Pro", sans-serif;
+    margin-right: 10px;
+    margin-bottom: -10px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.range-container {
+    display: flex;
+    justify-content: right;
+    margin-right: 40px;
+    margin-bottom: 20px;
+    gap: 20px;
+    font-size: 17px;
+    font-family: "Readex Pro", sans-serif;
+}
+
+.range-container input {
+    width: 200px;
+    border-radius: 8px;
+    padding: 3px 10px 3px 10px;
+    border: none;
+}
+
+.table-container {
+    display: flex;
+    justify-content: space-between;
+    font-size: 17px;
+    font-family: "Readex Pro", sans-serif;
+    margin-bottom: 15px;
+    margin-right: 40px;
+    width: 800px;
+    text-align: center;
+}
+
+.table-container tr:first-child th:first-child{
+    border-top-right-radius: 15px;
+}
+.table-container tr:first-child th:last-child{
+    border-top-left-radius: 15px;
+}
+
+.table-container tr:last-child td:first-child{
+    border-bottom-right-radius: 15px;
+}
+.table-container tr:last-child td:last-child{
+    border-bottom-left-radius: 15px;
+}
+
+
+
+.bill-table {
+    display: flex;
+    justify-content: space-between;
+    font-size: 17px;
+    font-family: "Readex Pro", sans-serif;
+    margin-right: 10px;
+    margin-left: 10px;
+    text-align: center; 
+}
+
+.accounts-bill {
+    background: white;
+    border-radius: 25px;
+    height: 650px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    z-index: 9999;
+    right: 70%;
+    padding: 25px;
+    margin-top: -45px;
+}
+
+
+.total-bill {
+    border-radius: 15px;
+    background: rgb(236, 234, 234);
+    position: absolute;
+    bottom: 20px;
+    width: 87%;
+}
+
+.total-bill hr {
+    margin: 10px;
+}
+
+.total-details {
+    padding-right: 20px;
+    padding-left: 30px;
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.total-details p {
+    font-family: "Readex Pro", sans-serif;
+}
+
+.accounts-content {
+    position: relative;
+    min-height: 610px;
+}
+
+.pagination{
+    position: absolute;
+    bottom: 10px;
+
+}
+
+
+@media (max-width:1050px) {
+    .range-container {
+        margin-right: 50px;
+        gap: 10px;
+        font-size: 15px;
+        margin-bottom: 15px;
+    }
+
+    .range-container input {
+        width: 150px;
+        border-radius: 8px;
+        padding: 3px 10px 3px 10px;
+        border: none;
+    }
+
+    .table-container{
+        width: 300px;
+        font-size: 17px;
+        margin-right: 45px;
+    }
+    .accounts-bill{
+        width: 300px;
+        height: 600px;
+        right: 65%;
+    }
+    .accounts-bill h6{
+        font-size: 16px;
+    }
+    .bill-table {
+        font-size: 12px;
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+    .bottom-bill{
+        width: 300px;
+    }
+    .total-bill{
+        margin: -13px;
+        margin-bottom: 1px;
+        width: 280px;
+    }
+
+}
+
+
+@media (max-width:600px) {
+    .range-container {
+        flex-direction: column;
+        margin-right: 20px;
+        gap: 10px;
+        font-size: 15px;
+        margin-bottom: 15px;
+    }
+
+    .range-container input {
+        width: 150px;
+        border-radius: 8px;
+        padding: 3px 10px 3px 10px;
+        border: none;
+    }
+
+    .table-container{
+        width: 100px;
+        font-size: 9px;
+        margin-right: -5px;
+    }
+    .accounts-bill{
+        width: 200px;
+        height: 600px;
+        right: 65%;
+    }
+    .accounts-bill h6{
+        font-size: 14px;
+    }
+    .bill-table {
+        font-size: 12px;
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+    .bottom-bill{
+        width: 100px;
+    }
+    .total-bill{
+        margin: -13px;
+        margin-bottom: 1px;
+        width: 180px;
+    }
+    .bottom-bill button{
+        margin-right: -13px;
+        width: 180px;
+    }
+
+}

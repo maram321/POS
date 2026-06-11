@@ -1,0 +1,106 @@
+https://pos-node-mk9i.onrender.com
+
+mongodb+srv://maramghazawi97:Maram@97@cluster0.rj9py3l.mongodb.net/
+
+
+saleslist
+
+[
+    {
+        "_id": "67c46d651afd73d421d3c64f",
+        "itemName": "ستيك",
+        "price": 20,
+        "catagory": "سندويشات",
+        "image": "1741775390270_images (1).jpg",
+        "userId": "68f08f0eaf749656834935da",
+        "__v": 0
+    },
+    {
+        "_id": "67c4a14284a0f8bad8a46055",
+        "itemName": "برجر",
+        "price": 20,
+        "catagory": "سندويشات",
+        "image": "1741787158020_images.jpg",
+        "userId": "68f08f0eaf749656834935da",
+        "__v": 0
+    },
+    {
+        "_id": "67c4a1a99524843bc7fe5cbe",
+        "itemName": "شاي",
+        "price": 5,
+        "catagory": "مشروبات ساخنة",
+        "image": "1741775508363_peppermint-tea-on-teacup-1417945-1200x826.jpg",
+        "userId": "68f08f0eaf749656834935da",
+        "__v": 0
+    },
+    {
+        "_id": "67cad30ca25c13769f503b51",
+        "itemName": "قهوة",
+        "price": 5,
+        "catagory": "مشروبات ساخنة",
+        "image": "1741775482997_150929101049-black-coffee-stock.jpg",
+        "userId": "68f08f0eaf749656834935da",
+        "__v": 0
+    },
+    {
+        "_id": "67da93f2494c390db586ebf8",
+        "itemName": "كوكتيل",
+        "price": 10,
+        "catagory": "مشروبات باردة",
+        "image": "1742377970796_Fruit-Smoothie-779x1024.webp",
+        "userId": "68f08f0eaf749656834935da",
+        "__v": 0
+    }
+]
+
+
+expenseslist
+
+[
+    {
+        "_id": "67c4a3469524843bc7fe5cc2",
+        "itemName": "لحمة",
+        "price": 60,
+        "catagory": "لحوم ودواجن",
+        "image": "1741775753224_BLOG1.jpg",
+        "userId": "68f08f0eaf749656834935da",
+        "__v": 0
+    },
+    {
+        "_id": "67c4a3799524843bc7fe5cc4",
+        "itemName": "خبز",
+        "price": 10,
+        "catagory": "مخبوزات",
+        "image": "1741775809667_french-bread2.jpg",
+        "userId": "68f08f0eaf749656834935da",
+        "__v": 0
+    },
+    {
+        "_id": "67c4a3b99524843bc7fe5cc6",
+        "itemName": "خضراوات",
+        "price": 20,
+        "catagory": "خضراوات",
+        "image": "1741775842820_images (2).jpg",
+        "userId": "68f08f0eaf749656834935da",
+        "__v": 0
+    },
+    {
+        "_id": "681f74e94d5d83ade1c4a82e",
+        "itemName": "ادوات بلاستيكية",
+        "price": 20,
+        "catagory": "بلاستيكيات",
+        "image": "1746892009219_image.jpg",
+        "userId": "68f08f0eaf749656834935da",
+        "__v": 0
+    },
+    {
+        "_id": "681f75774d5d83ade1c4a835",
+        "itemName": "دجاج",
+        "price": 30,
+        "catagory": "لحوم ودواجن",
+        "image": "1746892151348_06121401301764940612537543315301.jpg",
+        "userId": "68f08f0eaf749656834935da",
+        "__v": 0
+    }
+]
+

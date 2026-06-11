@@ -1,0 +1,6 @@
+{
+    "jwtPrivateKey": "unsecureKey",
+    "db" : "mongodb+srv://maramghazawi97_db_user:MG010101@cluster0.alqda1l.mongodb.net/pos",
+    "port": "3900",
+    "requiresAuth": true
+}
