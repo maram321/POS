@@ -96,7 +96,7 @@ import "./list.css"
                 { sales.map(sale =>
                 <div className='item-container' key={sale._id}>
                     <div className='img-container'>
-                        <img src={"http://localhost:3900/images/"+sale.image} className="img-top" alt="not-found" />
+                        <img src={"https://pos-node-up1x.onrender.com/images/"+sale.image} className="img-top" alt="not-found" />
                     </div>
                     <div className='item-info'>
                         <div className='info'>
